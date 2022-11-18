@@ -1,3 +1,87 @@
-.hello {
-  color: red;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+body{ 
+  min-height:100vh;
+  margin:0;
+  position:relative;
+  font-family: 'PT', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.container h1 {
+  padding-left: 50px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scores-section {
+  width: 50%;
+}
+
+.form-section {
+  width: 50%;
+}
+
+.section-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+  height: 30px;
+  margin: 20px;
+}
+
+button {
+  margin-right: 0px;
+}
+
+.scores-list {
+  list-style-type: none;
+  padding-left: 0px;
+  border: 0.7px inset gray;
+}
+
+.scores-list li {
+  padding: 5px;
+}
+
+.scores-list li:nth-child(even) {
+  background-color: gray;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.form-control {
+  height: 20px;
+  padding: 5px;
+}
+
+.submit-btn {
+  align-self: flex-end;
+  width: 60px;
+  margin-right: 0px;
+}
+
+footer {
+  position: absolute;
+  background-color: gray;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
 }

@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 npm install
 ### Usage
-
+npm start
 ### Run tests
 
 ### Deployment
