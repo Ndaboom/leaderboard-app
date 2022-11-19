@@ -13,6 +13,10 @@ body {
   padding-left: 50px;
 }
 
+h2, h1 {
+  color: rgb(88, 99, 243);
+}
+
 .main-section {
   display: flex;
   flex-direction: row;
@@ -36,10 +40,11 @@ body {
 }
 
 .btn-primary {
-  background-color: white;
-  color: black;
+  background-color: rgb(88, 99, 243);;
+  color: white;
   height: 30px;
   margin: 20px;
+  border: none;
 }
 
 button {
@@ -49,7 +54,6 @@ button {
 .scores-list {
   list-style-type: none;
   padding-left: 0;
-  border: 0.7px inset gray;
 }
 
 .scores-list li {
@@ -57,7 +61,7 @@ button {
 }
 
 .scores-list li:nth-child(even) {
-  background-color: gray;
+  background-color: rgb(88, 99, 243);
 }
 
 .add-score {
@@ -80,7 +84,7 @@ button {
 
 footer {
   position: absolute;
-  background-color: gray;
+  background-color: rgb(88, 99, 243);
   bottom: 0;
   width: 100%;
   height: 50px;
