@@ -1,18 +1,18 @@
 const scores = [
   {
-    name: "Sammy",
+    name: 'Sammy',
     score: 1000,
   },
   {
-    name: "Marie",
+    name: 'Marie',
     score: 2000,
   },
   {
-    name: "Steven",
+    name: 'Steven',
     score: 5000,
   },
   {
-    name: "Margon",
+    name: 'Margon',
     score: 3000,
   },
 ];
