@@ -1,4 +1,4 @@
-import {fetchScores} from './api.js';
+import { fetchScores } from './api.js';
 
 const scoresContainer = document.querySelector('.scores-list');
 
@@ -12,4 +12,4 @@ const displayScores = async () => {
   });
 };
 
-export { displayScores };
+export default displayScores;

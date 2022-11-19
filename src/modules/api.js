@@ -22,8 +22,7 @@ const addPlayer = (name, points) => {
     }),
   })
     .then((response) => {
-      scoresArr = response.json();
-      return scoresArr;
+      return response.json();
     })
     .then(() => {
       // console.log('Success:');
@@ -33,4 +32,4 @@ const addPlayer = (name, points) => {
     });
 };
 
-export { addPlayer, fetchScores};
+export { addPlayer, fetchScores };
