@@ -9,13 +9,13 @@ body {
   font-weight: 700;
 }
 
-.container h1 {
-  padding-left: 50px;
-}
-
 h1,
 h2 {
   color: rgb(88, 99, 243);
+}
+
+.container h1 {
+  padding-left: 50px;
 }
 
 .main-section {
