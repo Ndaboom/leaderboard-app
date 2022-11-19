@@ -63,6 +63,7 @@ button {
 
 .scores-list li:nth-child(even) {
   background-color: rgb(88, 99, 243);
+  color: white;
 }
 
 .add-score {
