@@ -10,9 +10,9 @@
 - CSS
 - Javascript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ndaboom.github.io/leaderboard-app/dist/)
 
 ## Getting Started
 
