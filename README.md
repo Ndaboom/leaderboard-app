@@ -1,9 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack demo
+# Leaderboard app
 
 > a Javascript leaderboard list app using webpack and ES6 features, notably modules.
-
 
 ## Built With
 
@@ -14,7 +13,6 @@
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
@@ -27,12 +25,10 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 npm install
 ### Usage
-
+npm start
 ### Run tests
 
 ### Deployment
-
-
 
 ## Authors
 
