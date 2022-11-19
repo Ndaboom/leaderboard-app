@@ -21,15 +21,15 @@ const addPlayer = (name, points) => {
       score: points,
     }),
   })
-    .then((response) => {
+  .then((response) => {
       return response.json();
-    })
-    .then(() => {
+  })
+  .then(() => {
       // console.log('Success:');
-    })
-    .catch(() => {
+  })
+  .catch(() => {
       // console.error('Error:');
-    });
+  });
 };
 
 export { addPlayer, fetchScores };

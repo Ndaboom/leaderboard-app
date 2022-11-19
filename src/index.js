@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import displayScores from './modules/players.js';
 import { addPlayer } from './modules/api.js';
 import './style.css';
