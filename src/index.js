@@ -1,15 +1,22 @@
-import Players from './modules/players.js';
+import { displayScores } from './modules/players.js';
+import { addPlayer } from './modules/api.js';
 import './style.css';
 
 const addScore = document.querySelector('.submit-btn');
 const playerName = document.getElementById('player-name');
 const playerPoint = document.getElementById('player-points');
+const refreshBtn = document.getElementById('refresh-btn');
 
-addScore.addEventListener("click", () => {
+addScore.addEventListener('click', () => {
   if(playerPoint.value != '' && playerName.value != '') {
-    Players.addScore(playerName.value, playerPoint.value);
-    Players.readScores();
+    addPlayer(playerName.value, playerPoint.value);
+    playerPoint.value == '';
+    playerName.value == '';
   }
 });
 
-Players.readScores();
+refreshBtn.addEventListener('click', () => {
+  displayScores();
+});
+
+displayScores();
