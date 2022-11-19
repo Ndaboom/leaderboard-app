@@ -1,3 +1,4 @@
+/* eslint-disable arrow-body-style */
 const BASE_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
 const GAME_ID = 'Qj7gUFGoKecQX4gnF3ek';
 const URL = `${BASE_URL}/games/${GAME_ID}/scores/`;
@@ -21,15 +22,15 @@ const addPlayer = (name, points) => {
       score: points,
     }),
   })
-  .then((response) => {
+    .then((response) => {
       return response.json();
-  })
-  .then(() => {
+    })
+    .then(() => {
       // console.log('Success:');
-  })
-  .catch(() => {
+    })
+    .catch(() => {
       // console.error('Error:');
-  });
+    });
 };
 
 export { addPlayer, fetchScores };
